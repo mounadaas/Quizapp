@@ -1,0 +1,20 @@
+.startscreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.startscreen h3 {
+  margin: 15px;
+}
+
+.start {
+  margin-top: 15px;
+  background-color: #3f474c;
+  transition: 0.5s;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+}

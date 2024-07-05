@@ -1,0 +1,140 @@
+{
+  "questions": [
+    {
+      "question": "Which is the most popular JavaScript framework?",
+      "option": ["Angular", "React", "Svelet", "Vue"],
+      "points": 10,
+      "correctOption": 1
+    },
+    {
+      "question": "Which campany invented React?",
+      "option": ["Google", "Apple", "Netflix", "Facebook"],
+      "points": 10,
+      "correctOption": 3
+    },
+    {
+      "question": "What's the fondamental building block of React apps?",
+      "option": ["Components", "Blocks", "Elements", "Effects"],
+      "points": 10,
+      "correctOption": 0
+    },
+    {
+      "question": "What's the name of the syntax we use to describe the UI in React components?",
+      "option": ["FBJ", "Babel", "JSX", "ES2015"],
+      "points": 10,
+      "correctOption": 2
+    },
+    {
+      "question": "How does data flow in React app?",
+      "option": [
+        "From parent to childern",
+        "From children to parents",
+        "Both ways",
+        "The developer decides"
+      ],
+      "points": 10,
+      "correctOption": 0
+    },
+    {
+      "question": "How to pass data into child components?",
+      "option": ["State", "Props", "PropTypes", "Parameters"],
+      "points": 10,
+      "correctOption": 1
+    },
+
+    {
+      "question": "When to use derived state?",
+      "option": [
+        "Whenever the state should not trigger a re-render",
+        "    Whenever the state can be synchronized with an effect",
+        "Whenever the state should be accessible to all components",
+        "    Whenever the state can be computed from another state variable"
+      ],
+      "points": 10,
+      "correctOption": 3
+    },
+    {
+      "question": "What triggers a UI re-render in React?",
+      "option": [
+        " Running an effect",
+        "Passing props",
+        "Updating state",
+        " Adding event listeners to DOM elements"
+      ],
+      "points": 10,
+      "correctOption": 2
+    },
+    {
+      "question": " When do we directly touch the DOM in React?",
+      "option": [
+        "When we need to listen to an event",
+        "When we need to change the UI",
+        "When we need to add styles",
+        "Almost never"
+      ],
+      "points": 10,
+      "correctOption": 3
+    },
+    {
+      "question": "  In what situation do we use a callback to update state?",
+      "option": [
+        "When updating the state will be slow",
+        "When the updated state is very data-intensive",
+        "When the state update should happen faster",
+        "When the new state depends on the previous state"
+      ],
+      "points": 10,
+      "correctOption": 3
+    },
+    {
+      "question": " If we pass a function to useState, when will that function be called?",
+      "option": [
+        "On each re-render",
+        "Each time we update the state",
+        "Only on the initial render",
+        "The first time we update the state"
+      ],
+      "points": 10,
+      "correctOption": 2
+    },
+    {
+      "question": " Which hook to use for an API request on the component's initial render?",
+      "option": ["useState", "useEffect", "useRef", "useReducer"],
+      "points": 10,
+      "correctOption": 1
+    },
+    {
+      "question": "Which variables should go into the useEffect dependency array?",
+      "option": [
+        "Usually none",
+        "All our state variables",
+        "All state and props referenced in the effect",
+        "All variables needed for clean up"
+      ],
+      "points": 10,
+      "correctOption": 2
+    },
+    {
+      "question": "An effect will always run on the initial render.",
+      "option": [
+        "True",
+        "It depends on the dependency array",
+        "False",
+        "In depends on the code in the effect"
+      ],
+      "points": 10,
+      "correctOption": 0
+    },
+    {
+      "question": "When will an effect run if it doesn't have a dependency array?",
+      "option": [
+        "Only when the component mounts",
+        "Only when the component unmounts",
+        "The first time the component re-renders",
+        "Parameters"
+      ],
+      "points": 10,
+      "correctOption": 3
+    }
+  ]
+}
